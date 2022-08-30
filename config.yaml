@@ -1,11 +1,11 @@
 seed: 42  # Random seed for reproducibility
-num_epochs: 1
-learning_rate: 0.0001 #0.000002
-experiment_name: bertDA
+num_epochs: 2
+learning_rate: 0.0001 
+experiment_name: 'causal_inf'
 MIMIC_PATH : '/home/shadi.isk/Bias_in_science/mimic-iii-clinical-database-1.4'
 FEATURES_PATH : '/home/shadi.isk/Bias_in_science/features'
 outcome_label : 'LOS'
 outcome_type : 'cont'
 treatment_label : 'RACE'
 treatment_division : 'white_vs_black'
-result_folder : '/home/shadi.isk/Bias_in_science/results_final'
+result_folder : '/home/shadi.isk/Bias_in_science/results'
